@@ -32,9 +32,9 @@ S = S.edge_subgraph(filtered_edges)
 
 imbalance, bicoloring = dnx.structural_imbalance(S, sampler)
 
-## Add labels about violation relationship ('frustration') and attibution to the group('color'):
-for edge in S.edges:
-	S.edges[edge]['frustraion'] = (edge in imbalance)
-for node in S.nodes:
-	S.nodes[node]['color'] = bicoloring[node]
+# ## Add labels about violation relationship ('frustration') and attibution to the group('color'):
+# for edge in S.edges:
+# 	S.edges[edge]['frustraion'] = (edge in imbalance)
+# for node in S.nodes:
+# 	S.nodes[node]['color'] = bicoloring[node]
 

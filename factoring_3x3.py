@@ -4,7 +4,7 @@
 import dwavebinarycsp as dbc
 
 # Set an integer to factor
-P = 19
+P = 49
 
 # A binary representation of P ("{:06b}" formats for 6-bit binary)
 bP = "{:06b}".format(P)
